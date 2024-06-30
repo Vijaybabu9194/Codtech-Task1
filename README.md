@@ -1,9 +1,9 @@
 Name: Vijay Babu Arumilli
 Company: CODTECH IT SOLUTIONS
 ID:CT08DS1621
-Domain:
-Duration:
-Mentor:
+Domain:C Programming
+Duration:June to July 2024
+Mentor:G.Sravani
 
 Overview of the project
 
