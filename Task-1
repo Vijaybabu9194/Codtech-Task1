@@ -1,0 +1,104 @@
+//Program for a quiz game
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int choice,i=0,answer,score=0;
+    for(i=1;i<=5;i++)
+    {
+        switch(i)
+        {
+            case 1:printf("\nWho designed India flag?\n");
+                   printf("1.Mahatma Gandhi\t        2.Pingali venkaya\n");
+                   printf("3.Rabindranath Tagore\t   4.Jawaharlal Nehru\n");
+                   printf("Enter your option:");
+                   scanf("%d",&answer);
+                   printf("\n= = = = Answer Feedback = = = =");
+                   if(answer==2)
+                   {
+                       score=score+10;
+                       printf("\nWow!your answer is correct\n");
+                       printf("Your score is :%d\n",score);
+                   }
+                   else
+                   {
+                       printf("\nOh!Your answer is wrong...Better luck next time");
+                       printf("\nYour score is:%d\n",score);
+                   }
+                   break;
+            case 2:printf("\nWho is the president of India ?\n");
+                   printf("1.Droupadi Murmu\t        2.Ramnadh kovindh\n");
+                   printf("3.Narendra modi\t         4.Amit shah\n");
+                   printf("Enter your option:");
+                   scanf("%d",&answer);
+                   printf("\n= = = = Answer Feedback = = = =");
+                   if(answer==1)
+                   {
+                      score=score+10;
+                      printf("\nWow!your answer is correct\n");
+                      printf("Your score is :%d\n",score);
+                   }
+                   else
+                  {
+                     printf("\nOh!Your answer is wrong...Better luck next time");
+                     printf("\nYour score is:%d\n",score);
+                  }
+                  break;
+            case 3:printf("\nWhich is the smallest country in the world?\n");
+                   printf("1.Russia\t        2.Australia\n");
+                   printf("3.Vatican\t       4.Zimbabwe\n");
+                   printf("Enter your option:");
+                   scanf("%d",&answer);
+                   printf("\n= = = = Answer Feedback = = = =");
+                   if(answer==3)
+                   {
+                      score=score+10;
+                      printf("\nWow!your answer is correct\n");
+                      printf("Your score is :%d\n",score);
+                   }
+                   else
+                   {
+                      printf("\nOh!Your answer is wrong...Better luck next time");
+                      printf("\nYour score is:%d\n",score);
+                   }
+                   break;
+            case 4:printf("\nWhat is the national flower of Japan?\n");
+                   printf("1.Lotus\t              2.Sunflower\n");
+                   printf("3.Cherry Blossom\t     4.Rose\n");
+                   printf("Enter your option:");
+                   scanf("%d",&answer);
+                   printf("\n= = = = Answer Feedback = = = =");
+                   if(answer==3)
+                   {
+                       score=score+10;
+                       printf("\nWow!your answer is correct\n");
+                       printf("Your score is :%d\n",score);
+                   }
+                   else
+                   {
+                       printf("\nOh!Your answer is wrong...Better luck next time");
+                       printf("\nYour score is:%d\n",score);
+                   }
+                   break;
+            case 5:printf("\nWhich bird lays the largest egg?\n");
+                   printf("1.Owl\t        2.Ostrich\n");
+                   printf("3.Kingfisher\t4.Woodpecker\n");
+                   printf("Enter your option:");
+                   scanf("%d",&answer);
+                   printf("\n= = = = Answer Feedback = = = =");
+                   if(answer==2)
+                   {
+                      score=score+10;
+                      printf("\nWow!your answer is correct\n");
+                      printf("Your score is :%d\n",score);
+                   }
+                   else
+                   {
+                      printf("\nOh!Your answer is wrong...Better luck next time");
+                      printf("\nYour score is:%d\n",score);
+                   }
+                   break;
+        }
+    }
+    printf("Your total score is:%d",score);
+}
